@@ -1,0 +1,17 @@
+# Core Deep Learning & Computer Vision
+torch>=2.1.0
+torchvision>=0.16.0
+kornia>=0.7.1
+opencv-python>=4.8.0
+numpy>=1.26.0
+
+# Image Processing
+Pillow==10.1.0
+
+# Plotting & Progress
+matplotlib>=3.8.0
+tqdm==4.66.0
+
+# Structure from Motion (SfM) Dependencies
+hloc>=1.5
+pycolmap

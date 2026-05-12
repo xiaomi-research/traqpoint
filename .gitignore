@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & outputs
+outputs/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Build artifacts
+*.so
+traqpoint/models/ops/build/
+traqpoint/models/ops/*.egg-info/
+
+# Data (keep local)
+*.npz
+*.npy
+
+# Weights folder - ignore all files except .gitkeep
+weights/*
+!weights/.gitkeep
+
+# Third-party weight files (not tracked in submodules)
+third_party/**/*.pth
+third_party/**/*.pt
+third_party/**/*.safetensors

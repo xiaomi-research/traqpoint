@@ -1,0 +1,9 @@
+[submodule "third_party/LightGlue"]
+	path = third_party/LightGlue
+	url = https://github.com/cvg/LightGlue
+[submodule "third_party/Hierarchical-Localization"]
+	path = third_party/Hierarchical-Localization
+	url = https://github.com/cvg/Hierarchical-Localization
+[submodule "third_party/facebookresearch_dinov3_main"]
+	path = third_party/facebookresearch_dinov3_main
+	url = https://github.com/facebookresearch/dinov3

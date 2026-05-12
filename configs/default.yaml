@@ -1,0 +1,19 @@
+activation: relu
+block_dims:
+- 8
+- 16
+- 32
+- 64
+d_model: 256
+detection_threshold: 0.0
+device: cuda
+dim_feedforward: 1024
+dropout: 0.1
+enc_n_points: 8
+hidden_dim: 256
+lr_backbone: 0
+nhead: 8
+num_encoder_layers: 4
+num_feature_levels: 4
+top_k: 4096
+train_detector: False
