@@ -61,6 +61,7 @@ This repository now supports **two-stage training**:
   - [Download KITTI Dataset](#1-download-kitti-dataset)
   - [Run VO Evaluation](#2-run-vo-evaluation)
 - [Structure from Motion](#structure-from-motion-sfm-test)
+- [Pretrained Models](#pretrained-models)
 - [Citation](#citation)
 - [License](#license)
 
@@ -248,7 +249,17 @@ python demo_sfm.py
 ---
 ## Pretrained Models
 
-Pretrained weights will be released soon. 
+The pretrained TraqPoint models are now available on [Hugging Face](https://huggingface.co/lihao20888/traqpoint/tree/main):
+
+- [`stage1_des.pth`](https://huggingface.co/lihao20888/traqpoint/blob/main/stage1_des.pth): Stage-1 descriptor weights used to initialize Stage-2 keypoint/policy training.
+- [`traqpoint_best.pth`](https://huggingface.co/lihao20888/traqpoint/blob/main/traqpoint_best.pth): Final trained model used for evaluation.
+
+For evaluation, download `traqpoint_best.pth` to `./weights/`:
+
+```bash
+curl -L https://huggingface.co/lihao20888/traqpoint/resolve/main/traqpoint_best.pth \
+  -o weights/traqpoint_best.pth
+```
 
 ---
 ## Citation
